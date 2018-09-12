@@ -1,0 +1,28 @@
+/*
+* @Author: LENOVO
+* @Date:   2018-08-15 23:24:42
+* @Last Modified by:   LENOVO
+* @Last Modified time: 2018-08-19 11:48:18
+*/
+.footer{
+   
+    position: relative;
+    margin: 20px ;
+    bottom: 10px;
+}
+.links{
+    text-align: center;
+
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+    margin:0 auto;
+}
+.copyright{
+
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}

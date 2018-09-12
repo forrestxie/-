@@ -1,0 +1,9 @@
+/*
+* @Author: LENOVO
+* @Date:   2018-08-20 16:18:58
+* @Last Modified by:   LENOVO
+* @Last Modified time: 2018-08-20 16:21:09
+*/
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }

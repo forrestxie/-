@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+     <title><%= htmlWebpackPlugin.options.title%> - 订单列表</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/css/index.css">
+</head>
+<body>
+   
+    <%= require('html-loader!./layout/nav.html') %>
+    <!--导航栏-->
+
+    <%= require('html-loader!./layout/header.html') %>
+    <!--搜索的头部-->
+    
+      <div class="crumb">
+      <div class="w">
+        <div class="crumb-con">
+          <a href="" class="link">happyShop</a>
+          <span>></span>
+          <span class="link-text">个人中心</span>
+        </div>
+      </div>
+    </div>
+    <div class="page-wrap w"><!--侧边栏导航-->
+         <%= require('html-loader!./layout/nav-side.html') %>
+     <div class="content with-nav">
+      <div class="panel">
+         <div class="panel-title">订单列表</div>
+         <div class="panel-body">
+             <div class="order-list-con">
+               
+             </div>
+            <div class="pagination">
+              
+            </div>
+         </div>
+      </div>
+     </div>    
+    </div>
+      <%= require('html-loader!./layout/footer.html') %><!--页面底部-->
+      
+</body>
+</html>

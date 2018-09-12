@@ -1,0 +1,27 @@
+/*
+* @Author: LENOVO
+* @Date:   2018-08-15 22:00:21
+* @Last Modified by:   LENOVO
+* @Last Modified time: 2018-08-15 22:18:09
+*/
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+ .user-info{/*用户部分*/
+    float: left;
+}
+.nav .user .link{
+    margin-right: 5px; 
+}
+ .nav-info{/*导航链接部分*/
+    float: right;
+}
+.nav .user.login{
+    display: none;
+}
+.nav-info .nav-item{
+    display: inline-block;
+    margin-left: 8px; 
+}

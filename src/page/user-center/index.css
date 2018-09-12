@@ -1,0 +1,15 @@
+/*
+* @Author: LENOVO
+* @Date:   2018-08-19 09:53:44
+* @Last Modified by:   LENOVO
+* @Last Modified time: 2018-08-19 11:12:42
+*/
+.form-line{
+    height: 30px;
+    line-height: 30px
+}
+.form-line .label{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}

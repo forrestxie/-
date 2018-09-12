@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - 商品详情</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/css/index.css">
+    <body>
+    <%= require('html-loader!./layout/nav.html') %>
+    <!--导航栏-->
+    <%= require('html-loader!./layout/header.html') %>
+    
+      <div class="crumb">
+      <div class="w">
+        <div class="crumb-con">
+          <a href="./index.html" class="link">happyShop</a>
+          <span>>></span>
+          <span class="link-text" href="">商品页</span>
+        </div>
+      </div>
+    </div>
+    <div class="page-wrap w"><!--侧边栏导航-->
+       <div class="panel">
+         <h1 class="panel-title">收货地址</h1>
+         <div class="panel-body address-con">
+         
+       </div>
+       </div>
+       <div class="panel">
+         <h1 class="panel-title">商品清单</h1>
+         <div class="panel-body product-con">
+         
+       </div>
+       </div>
+    </div>
+    <div class="model-wrap">
+     
+      </div>
+    </div>
+      <%= require('html-loader!./layout/footer.html') %><!--页面底部-->
+      
+</body>
+</html>

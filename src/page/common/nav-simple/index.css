@@ -1,0 +1,19 @@
+/*
+* @Author: LENOVO
+* @Date:   2018-08-15 21:20:56
+* @Last Modified by:   LENOVO
+* @Last Modified time: 2018-08-19 10:32:13
+*/
+.nav-sample{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+
+}
+.nav-sample .logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}

@@ -1,0 +1,161 @@
+/*
+* @Author: LENOVO
+* @Date:   2018-08-22 13:32:32
+* @Last Modified by:   LENOVO
+* @Last Modified time: 2018-08-23 14:13:30
+*/
+.intro-wrap{
+    position: relative;
+    overflow: auto;
+}
+
+.intro-wrap .p-img-con{
+  width: 460px;
+  float: left;
+  
+}
+.intro-wrap .p-img-con .main-img-con{
+    height: 380px;
+    border: 1px solid #ddd;
+}
+.intro-wrap .p-img-con .main-img-con .main-img{
+    height: 100%;
+    width: 100%;
+    
+}
+.intro-wrap .p-img-con .p-img-item{
+    
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    border: 2px solid #eee; 
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+}
+.intro-wrap .p-img-con .p-img-list{
+    margin-top: 20px;
+    overflow: hidden;
+    height: 90px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.intro-wrap .p-img-con .p-img{
+    width: 100%;
+    height: 70px;
+    
+   
+}
+.intro-wrap .p-img-con .p-img-item:hover{
+    box-shadow: 1px 0px 10px 0px;
+    border: #c60023 solid 1px;
+}
+.intro-wrap .p-info-con{
+   float: left;
+   width: 360px;
+   margin-left:20px;
+}
+.intro-wrap .p-info-con .p-name{
+    font-size: 20px;
+    color: #333;
+}
+.intro-wrap .p-info-con .p-subtitle{
+    font-size: 15px;
+    color: #c60023;
+    line-height: 30px;
+}
+.p-info-con .p-info-item{
+    position: relative;
+    padding: 0 10px;
+    margin-top: 20px;
+
+}
+.intro-wrap .p-info-con .p-info-item .label{
+    display: inline-block;
+    width: 50px;
+    color: #999;
+}
+/*价格*/
+.intro-wrap .p-info-con .p-price-con{
+    background: #eee;
+    padding: 10px;
+}
+.intro-wrap .p-info-con .p-info-item .info{
+    color: #c60023;
+    font-size: 18px;
+}
+/*数量部分*/
+.intro-wrap .p-info-con .p-count-con .p-count{
+   height: 35px;
+   width: 62px;
+   line-height: 35px;
+   font-size: 15px;
+   text-align: center;
+   outline: none;
+   border: 1px solid #aaa; 
+
+}
+.intro-wrap .p-info-con .p-count-con .p-count-btn{
+   position: absolute;
+   float: left;
+   display: block;
+   left:130px; 
+   width: 20px;
+   height: 15px;
+   text-align: center;
+   font-size: 10px;
+   border: 1px solid #aaa;
+   background: #fff;
+   cursor: pointer; 
+   line-height: 15px;
+}
+.intro-wrap .p-info-con .p-count-con .p-count-btn.plus{
+       top: 0px;
+
+}
+.intro-wrap .p-info-con .p-count-con .p-count-btn.minus{
+       bottom: 0px;
+} 
+.btn.cart-add{
+    margin-top: 20px;
+}
+.detail-wrap .tab-list{
+    background: #eee;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-bottom: 1px solid #c60023; 
+}
+.detail-wrap .tab-list .tab-item{
+    float: left;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+    line-height: 40px;
+}
+.detail-wrap .tab-list .tab-item.active{
+    background: #c60023;
+    color: #fff;
+}
+.detail-con{
+    padding-top:20px;
+    background: #fff; 
+}
+.detail-con{
+    margin: 0 auto;
+    display: block;
+}
+/*错误信息*/
+.errTips{
+    padding    : 0 10px;
+    height     : 40px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align : center;
+    background : #eee;
+    font-size: 24px;
+    color: yellowgreen;
+}

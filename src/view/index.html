@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - 电商平台</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/css/index.css">
+</head>
+<body>
+    
+    <%= require('html-loader!./layout/nav.html') %>
+    <!--导航栏-->
+    <%= require('html-loader!./layout/header.html') %>
+    <!--搜索的头部-->
+    <div class=" w"><!--侧边栏导航-->
+          <ul class="keywords-list">
+            <li class="keywords-item">
+              <a href="./list.html?keyword=手机" class="link" target="_blank" keyword='手机'> 手机</a>
+              <a href="./list.html?keyword=数码" class="link" target="_blank"  keyword='数码'> 数码</a>
+           </li>
+          
+            <li class="keywords-item">
+              <a href="./list.html?keyword=电脑" class="link" target="_blank"  keyword='电脑'> 电脑</a>
+              <a href="./list.html?keyword=办公配件" class="link" target="_blank"  keyword='办公配件'> 办公配件</a>
+           </li>
+           
+            <li class="keywords-item">
+              <a href="./list.html?keyword=电视" class="link" target="_blank"  keyword='电视'> 电视</a>
+              <a href="./list.html?keyword=冰箱" class="link" target="_blank"  keyword='冰箱'>冰箱</a>
+              <a href="./list.html?keyword=洗衣机" class="link" target="_blank"  keyword='洗衣机'>洗衣机</a>
+              <a href="./list.html?keyword=空调" class="link" target="_blank"  keyword='空调'>空调</a>
+           </li>
+
+           <li class="keywords-item">
+              <a href="./list.html?keyword=厨卫" class="link" target="_blank"  keyword='厨卫'> 厨卫</a>
+              <a href="./list.html?keyword= 家电" class="link" target="_blank"  keyword='家电'> 家电</a>
+              <a href="./list.html?keyword=小家电" class="link" target="_blank"  keyword='小家电'> 小家电</a>
+           </li>
+
+            <li class="keywords-item">
+              <a href="./list.html?keyword=家居" class="link" target="_blank"  keyword='家居'> 家居</a>
+              <a href="./list.html?keyword=家装" class="link" target="_blank"  keyword='家装'> 家装</a>
+               <a href="./list.html?keyword=装修" class="link" target="_blank"  keyword='装修'> 装修</a>
+           </li>
+    
+           <li class="keywords-item">
+              <a href="./list.html?keyword=鞋靴" class="link" target="_blank"  keyword='鞋靴'> 鞋靴</a>
+              <a href="./list.html?keyword=箱包" class="link" target="_blank"  keyword='箱包'> 箱包</a>
+               <a href="./list.html?keyword=钟表" class="link" target="_blank"  keyword='钟表'> 钟表</a>
+                <a href="./list.html?keyword=珠宝" class="link" target="_blank"  keyword='珠宝'> 珠宝</a>
+           </li>
+           <li class="keywords-item">
+              <a href="./list.html?keyword= 烟酒" class="link" target="_blank"  keyword=' 烟酒'> 烟酒</a>
+              <a href="./list.html?keyword= 汽车" class="link" target="_blank"  keyword='汽车'> 汽车</a>
+               <a href="./list.html?keyword=体育" class="link" target="_blank"  keyword=' 体育'> 体育</a>
+             </li>
+             <li class="keywords-item">
+              <a href="./list.html?keyword=音响" class="link" target="_blank"  keyword='音响'> 音响</a>
+              <a href="./list.html?keyword=图书" class="link" target="_blank"  keyword='图书'> 图书</a>
+               <a href="./list.html?keyword=电子产品" class="link" target="_blank"  keyword='电子产品'> 电子产品</a>
+              </li>
+              <li class="keywords-item">
+              <a href="./list.html?keyword= 个护化妆" class="link" target="_blank"  keyword='个护化妆'> 个护化妆</a>
+              <a href="./list.html?keyword=清洁用品" class="link" target="_blank"  keyword='清洁用品'> 清洁用品</a>
+               <a href="./list.html?keyword=纸品" class="link" target="_blank"  keyword='纸品'> 纸品</a>
+           </li>
+
+           <li class="keywords-item">
+              <a href="./list.html?keyword=母婴用品" class="link" target="_blank"  keyword='母婴用品'> 母婴用品</a>
+              <a href="./list.html?keyword=儿童玩具" class="link" target="_blank"  keyword='儿童玩具'>儿童玩具</a>
+               <a href="./list.html?keyword=童装童鞋" class="link" target="_blank"  keyword='童装童鞋'> 童装童鞋</a>
+           </li>
+          </ul>
+        
+          <div class="banner-con">
+           
+           
+          </div>
+       </div>
+          <div class="w">
+            <div class="floor-wrap">
+              <h1 class="floor-title">F1 家用电器</h1>
+              <ul class="floot-list">
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100006">
+                    <span class="floor-text">双开门冰箱</span>
+                    <img src="https://img10.360buyimg.com//n2/jfs/t26056/363/327254306/31096/6e8e8813/5b6bada1Ne5e79ca0.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100007">
+                    <span class="floor-text">电视</span>
+                    <img src="https://img11.360buyimg.com//n2/jfs/t18916/203/2649931276/614670/54dd3453/5b0287c5Ndbc497c0.jpg!q80.webp" alt="电视" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100008">
+                    <span class="floor-text">热水器</span>
+                    <img src="https://img10.360buyimg.com//n2/jfs/t22408/137/1508038924/92550/b114011/5b2b7563N3901fbc9.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100009">
+                    <span class="floor-text">美的冰箱</span>
+                    <img src="https://img12.360buyimg.com//n2/jfs/t23014/80/1488654784/180270/12626f1d/5b61530bNfea58df7.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100010">
+                    <span class="floor-text">空调</span>
+                    <img src="https://img10.360buyimg.com/n2/jfs/t20935/235/1364601386/127299/6299fd3a/5b2676fdN44bed9a3.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w">
+            <div class="floor-wrap">
+              <h1 class="floor-title">F2 数码设备</h1>
+              <ul class="floot-list">
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100011">
+                    <span class="floor-text">相机</span>
+                    <img src="https://img14.360buyimg.com/n7/jfs/t17170/326/2228197128/246116/8d8c4bca/5aebb4a3Nbda4ca48.jpg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100012">
+                    <span class="floor-text">分线器</span>
+                    <img src="https://img12.360buyimg.com/n7/jfs/t22876/284/1283554091/198840/b9855035/5b5a7cd4Nd743206d.jpg" alt="电视" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100013">
+                    <span class="floor-text">手机</span>
+                    <img src="https://img14.360buyimg.com/n7/jfs/t20851/255/790931034/195488/954650a8/5b17aadbNcd580923.jpg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100014">
+                    <span class="floor-text">手环</span>
+                    <img src="https://img11.360buyimg.com/n7/jfs/t5707/81/1122101943/185667/55d4af6f/5923ab13Na7f5c340.jpg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100015">
+                    <span class="floor-text">手表</span>
+                    <img src="https://img14.360buyimg.com/n7/jfs/t19948/93/2678688654/378805/41b86232/5b4dc175Nfceee468.jpg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div><div class="w">
+            <div class="floor-wrap">
+              <h1 class="floor-title">F3 服装箱包</h1>
+              <ul class="floot-list">
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100016">
+                    <span class="floor-text">男装</span>
+                    <img src="https://img12.360buyimg.com/n2/jfs/t18436/323/2059967264/456755/6c8a846a/5ae2e6f7Nf089edf3.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100017">
+                    <span class="floor-text">女装</span>
+                    <img src="https://img14.360buyimg.com/n2/jfs/t2155/89/1378950456/262580/2b9a2fca/5699e9fdNd8d32eb5.jpg!q80.webp" alt="电视" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100018">
+                    <span class="floor-text">女包</span>
+                    <img src="https://img14.360buyimg.com/jdcms/jfs/t24358/137/1949703156/47300/ee2273d1/5b6e7ab0N80eaf7eb.jpeg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100019">
+                    <span class="floor-text">皮具</span>
+                    <img src="https://img11.360buyimg.com/jdcms/jfs/t21073/159/1503483469/27226/66b9fdd0/5b2b705aN32615b78.jpeg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100020">
+                    <span class="floor-text">行李箱</span>
+                    <img src="https://img14.360buyimg.com/jdcms/jfs/t20392/222/1517560775/19534/daa70b1f/5b2b7810N6bf294b2.jpeg" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div><div class="w">
+            <div class="floor-wrap">
+              <h1 class="floor-title">F4酒水饮料</h1>
+              <ul class="floot-list">
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100021">
+                    <span class="floor-text">休闲零食</span>
+                    <img src="http://img10.360buyimg.com/jdcms/s130x130_jfs/t10612/150/2389127649/495726/cad20e93/59f6bdf2N8bf801bd.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100022">
+                    <span class="floor-text">洗发水</span>
+                    <img src="http://img14.360buyimg.com/jdcms/s130x130_jfs/t23338/353/2188116172/340427/ed2e1c48/5b7668f7N8cb07711.jpg!q80.webp" alt="电视" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100023">
+                    <span class="floor-text">牛奶</span>
+                    <img src="http://img11.360buyimg.com/n2/jfs/t3619/81/72301080/274437/ff3193c1/57fdea57Ncf05fa2c.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100024">
+                    <span class="floor-text">啤酒</span>
+                    <img src="http://img10.360buyimg.com/jdcms/s130x130_jfs/t4339/72/3090990616/230252/fdbb8c9c/58da1ecaNb21ad499.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+                <li class="floor-item">
+                  <a href="./list.html?categaryId=100025">
+                    <span class="floor-text">饮料</span>
+                    <img src="http://img10.360buyimg.com/jdcms/s130x130_jfs/t4522/200/3167036599/111653/885a4dd0/58f733a7N56b57574.jpg!q80.webp" alt="双开门冰箱" class="floor-img" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+    
+      
+      <%= require('html-loader!./layout/footer.html') %><!--页面底部-->
+      
+       
+</body>
+</html>

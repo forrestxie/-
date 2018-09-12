@@ -1,0 +1,21 @@
+<div class="banner">
+    <ul>
+        <li><a href="./list.html?categaryId=100015"><img src="https://img1.360buyimg.com/pop/jfs/t24301/76/2276980103/102033/73bd50c3/5b7a58f7Nbbba64ee.jpg"></a></li>
+
+        <li><a href="./list.html?categaryId=100005"><img src="https://m.360buyimg.com/babel/jfs/t24976/16/598094394/101131/3cc285de/5b754223N6bc69225.jpg"></a></li>
+
+        <li><a href="./list.html?categaryId=100016"><img src="https://img1.360buyimg.com/pop/jfs/t24484/29/2119735578/125174/9438db63/5b751bc9Nce271606.jpg"></a></li>
+        
+        <li><a href="./list.html?categaryId=100013"><img src="https://m.360buyimg.com/babel/jfs/t25330/360/529161028/79401/e78fb309/5b752b68N621139fa.jpg"></a></li>
+
+        <li><a href="./list.html?categoryId=10001"><img src="https://img1.360buyimg.com/pop/jfs/t24103/81/2311880690/104899/e54b94be/5b7a58f7Na7282026.jpg"></a>
+
+        </li><li><a href="./list.html?categaryId=100018"><img src="https://m.360buyimg.com/babel/jfs/t23203/295/2157955715/76142/9f127ae/5b762991N4fa242c8.jpg"></a></li>
+    </ul>
+    <div class="banner-arrow prev">
+      <i class="fa fa-angle-left"></i>
+    </div>
+    <div class="banner-arrow next">
+      <i class="fa fa-angle-right"></i>
+    </div>
+</div>

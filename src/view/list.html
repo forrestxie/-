@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - 电商平台</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/css/index.css">
+    <body>
+    <%= require('html-loader!./layout/nav.html') %>
+    <!--导航栏-->
+    <%= require('html-loader!./layout/header.html') %>
+    
+      <div class="crumb">
+      <div class="w">
+        <div class="crumb-con">
+          <a href="./index.html" class="link" >happyShop</a>
+          <span>>></span>
+          <span class="link-text">商品列表页</span>
+        </div>
+      </div>
+    </div>
+    <div class="page-wrap w"><!--侧边栏导航-->
+        <ul class="sort-con">
+          <li class="sort-item active" data-type="default">默认排序</li><!--data-*属性是HTML5属性,用$(对象).type(' *')获取-->
+          <li class="sort-item" data-type="price"><span>价格</span>
+            <i class="fa fa-sort-asc"></i>
+            <i class="fa fa-sort-desc"></i>
+          </li>
+        </ul>
+       <ul class="p-list-con">
+         <div class="loading"></div>
+
+       </ul>
+        <div class="pagination"></div>
+     </div>    
+    </div>
+      <%= require('html-loader!./layout/footer.html') %><!--页面底部-->
+      
+</body>
+</html>

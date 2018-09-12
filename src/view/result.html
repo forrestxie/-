@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - 结果提示页</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/css/index.css">
+</head>
+<body>
+    <%= require('html-loader!./layout/nav-sample.html') %><!--头部导航-->
+    <%= require('html-loader!./layout/nav.html') %>
+    <!--导航栏-->
+   
+    <div class="page-wrap w"><!--侧边栏导航-->
+          <div class="result-con register-success">
+            <h1 class="result-title">恭喜您,注册成功</h1>
+            <div class="result-content">
+               <a href="./use-login.html" class="link">立即登录</a>
+            </div>        
+          </div>
+          <div class="result-con password-reset-success">
+            <h1 class="result-title">恭喜您,修改密码成功</h1>
+            <div class="result-content">
+               <a href="./use-login.html" class="link">立即登录</a>
+            </div>        
+          </div>
+          <div class="result-con cart-add-success">
+            <h1 class="result-title">您的商品加入购物车成功</h1>
+            <div class="result-content">
+               <a href="./index.html" class="link">继续购物</a>
+               <a href="./cart.html" class="link">去购物车查看</a>
+            </div>        
+          </div>
+          <div class="result-con default-success">
+            <h1 class="result-title">恭喜您,操作成功</h1>
+            <div class="result-content">
+              <a href="./index.html" class="link">回到首页</a>
+             
+            </div>
+          </div>
+    </div>
+      
+      <%= require('html-loader!./layout/footer.html') %><!--页面底部-->
+</body>
+</html>
